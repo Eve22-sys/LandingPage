@@ -25,37 +25,35 @@ h1{
     margin: 4%;
 }
 
-
-.img1 img{
+#Carrossel {
     border: 2px solid pink;
+    display: flex;
+    gap: 0;
     justify-content: center;
-    width: 360px;
-    height: 360px;
 }
-.img1 img:hover{
-    
+.img{
+  
 }
-
-.img2 img {
+.Cake{
     border: 2px solid pink;
-    justify-content: center;
-    height:360px;
-    width: 360px;
-    margin: 20px 50px;
-}
-.img3 img{
-    border: 2px solid pink;
-    justify-content: center;
-    height:360px;
-    width: 360px;
-    margin: 20px 50px;
-    
-}
-.img4 img{
-    border: 2px solid pink;
-    justify-content: center;
-    height:360px;
-    width: 360px;
-    margin: 20px 50px;
+    width: 250px;
+    height: 250px;
 }
 
+.Dango{
+    border: 2px solid pink;
+    width: 250px;
+    height: 250px;
+}
+
+.Namagashi{
+    border: 2px solid pink;
+    width: 250px;
+    height: 250px;
+}
+
+.Mochi{
+    border: 2px solid pink;
+    width: 250px;
+    height: 250px;
+}
