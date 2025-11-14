@@ -27,8 +27,7 @@ h1{
 }
 div #Carrossel{
     width: 100%;
-    overflow: visible;
-    perspective: 1000px;
+    overflow: hidden;
 }
 #Carrossel ul{
     animation-name: carrossel;
