@@ -8,6 +8,7 @@
     text-align: center;
     color: black;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 a{
@@ -24,20 +25,51 @@ h1{
     text-align: center;
     margin: 4%;
 }
-
-#Carrossel {
-    border: 2px solid pink;
+div #Carrossel{
+    width: 100%;
+    overflow: visible;
+    perspective: 1000px;
+}
+#Carrossel ul{
+    animation-name: carrossel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: 400%;
     display: flex;
-    gap: 0;
-    justify-content: center;
-}
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
+ #Carrossel ul:hover{
+    animation-play-state: paused;
+    }
 .img{
-  
+    width: 25%;
+   flex-shrink: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+@keyframes carrossel{
+ 0%{margin-left: 0;}
+ 25%{margin-left: -100%;}
+ 50%{margin-left: -200%;}
+ 75%{margin-left: -300%;}
+ 95% {margin-left: -300.01%;}
+ 100%{margin-left: -300%;}
+ 
+ 
+}
+
 .Cake{
     border: 2px solid pink;
     width: 250px;
     height: 250px;
+}
+.Cake:hover{
+    border-radius: 5%;
+     transform: scale(1.2);
 }
 
 .Dango{
@@ -45,15 +77,26 @@ h1{
     width: 250px;
     height: 250px;
 }
+.Dango:hover{
+    border-radius: 5%;
+     transform: scale(1.2);
+}
 
 .Namagashi{
     border: 2px solid pink;
     width: 250px;
     height: 250px;
 }
-
+.Namagashi:hover{
+    border-radius: 5%;
+     transform: scale(1.2);
+}
 .Mochi{
     border: 2px solid pink;
     width: 250px;
     height: 250px;
+}
+.Mochi:hover{
+    border-radius: 5%;
+    transform: scale(1.2);
 }
