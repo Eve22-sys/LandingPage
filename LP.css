@@ -4,14 +4,22 @@
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
+ 
+ 
 #menu{
-    text-align: center;
     color: black;
     font-family: 'Courier New', Courier, monospace;
-
 }
-
-a{
+ul{
+    text-align: center;
+}
+li  {
+    border: 1px solid pink;
+    display: inline;
+    margin: 16px;
+}
+a {
+    display: inline;
     color: black;
     font-size: medium;
     text-decoration: none;
