@@ -12,5 +12,7 @@
 
   Text-align: inline; para ficarem um do lado do outro
 
+  Criei uma pausa no Carrossel quando o mouse estiver sobre a img e criei um transform: scale(1.2) para a imagem crescer.
+
   Criando um hover para a tag <p> com o intuito de o conteúdo aparecer quando o mouse estiver sobre a img.
 
