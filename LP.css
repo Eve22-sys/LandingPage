@@ -14,24 +14,23 @@ ul{
     text-align: center;
 }
 li  {
-    border: 1px solid pink;
+  
     display: inline;
     margin: 16px;
 }
 a {
-    display: inline;
     color: black;
-    font-size: medium;
+    font-size: larger;
     text-decoration: none;
 }
 a:hover{
     color: rgb(247, 154, 154);
-    font-size: larger;
+    font-size: x-large;
     text-decoration: underline;
 }
 h1{
     text-align: center;
-    margin: 4%;
+    margin: 8%;
 }
 div #Carrossel{
     width: 100%;
@@ -66,14 +65,13 @@ div #Carrossel{
  75%{margin-left: -300%;}
  95% {margin-left: -300.01%;}
  100%{margin-left: -300%;}
- 
- 
 }
 
 .Cake{
     border: 2px solid pink;
     width: 250px;
     height: 250px;
+    
 }
 .Cake:hover{
     border-radius: 5%;
@@ -97,8 +95,7 @@ div #Carrossel{
 }
 .Namagashi:hover{
     border-radius: 5%;
-     transform: scale(1.2);
-}
+     transform: scale(1.2);}
 .Mochi{
     border: 2px solid pink;
     width: 250px;
@@ -107,4 +104,17 @@ div #Carrossel{
 .Mochi:hover{
     border-radius: 5%;
     transform: scale(1.2);
+}
+p{
+    border: 1px solid pink;
+    visibility: hidden;
+    width: 250px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+li:hover>p{
+    background-color: purple;
+   visibility: visible;
+   transform: scale(1.2);
+   display: block;
 }
