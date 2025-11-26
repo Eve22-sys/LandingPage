@@ -127,9 +127,11 @@ li:hover>p{
 }
 #history{
     border: 1px solid black;
-    background-color: white;
 }
-.texto{
+ .texto{
     border: 1px solid black;
     color: black;
-    margin: 50px;}
+    visibility: visible;
+    text-transform:  capitalize;
+    
+}
