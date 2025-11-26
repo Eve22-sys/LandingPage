@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
+    max-width: 100%;
 }
  
  body{
@@ -47,8 +48,8 @@ div #Carrossel{
     width: 400%;
     display: flex;
     gap: 10px;
-    margin: 0;
-    padding: 0;
+    margin: 25px;
+    padding: 25px;
     list-style: none;
     
     }
@@ -127,11 +128,44 @@ li:hover>p{
 }
 #history{
     border: 1px solid black;
+    width: 800px;
+    height: 250px;
+    position: relative;
+    left: 250px;
 }
  .texto{
     border: 1px solid black;
     color: black;
     visibility: visible;
     text-transform:  capitalize;
-    
+    margin: 10px;
+}
+#Chef{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 450px;
+    top: -250px;
+    z-index: 1;
+}
+.bolha{
+    background-color: #3e1dc6;
+    width: 220px;
+    height: 220px;
+    border: 1px solid pink;
+    position: relative;
+     left: 550px;
+     top: -526px;
+     border-radius:50%;
+     color: white;
+}
+.bolha2{
+    background-color: #3e1dc6;
+    width: 110px;
+    height: 110px;
+    position: relative;
+    left: 425px;
+    top: -555px;
+    color: white;
+    border-radius:50%;
 }
