@@ -21,3 +21,7 @@
   e Visibility:visible;
 
   utilizei linear gradient para o background da página.
+
+  Centralizei a Div #History:
+  width:900px;
+  margin:0 auto;

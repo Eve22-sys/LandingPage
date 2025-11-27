@@ -43,7 +43,7 @@ div #Carrossel{
 }
 #Carrossel ul{
     animation-name: carrossel;
-    animation-duration: 10s;
+    animation-duration: 18s;
     animation-iteration-count: infinite;
     width: 400%;
     display: flex;
@@ -68,8 +68,10 @@ div #Carrossel{
  0%{margin-left: 0;}
  25%{margin-left: -100%;}
  50%{margin-left: -200%;}
- 75%{margin-left: -300%;}
- 95% {margin-left: -300.01%;}
+ 60%{margin-left: -300%;}
+ 75%{margin-left: -300.01%;}
+ 80%{margin-left: -300.02%;}
+ 95% {margin-left: -300.03%;}
  100%{margin-left: -300%;}
 }
 
@@ -128,10 +130,9 @@ li:hover>p{
 }
 #history{
     border: 1px solid black;
-    width: 800px;
+    width: 900px; 
     height: 250px;
-    position: relative;
-    left: 250px;
+    margin: 0 auto;
 }
  .texto{
     border: 1px solid black;
