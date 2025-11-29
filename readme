@@ -25,3 +25,5 @@
   Centralizei a Div #History:
   width:900px;
   margin:0 auto;
+
+  Criando um card com Transform: translateY(250px);
