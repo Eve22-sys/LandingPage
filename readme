@@ -27,3 +27,9 @@
   margin:0 auto;
 
   Criando um card com Transform: translateY(250px);
+
+  Coloquei um box-shadow no texto
+
+  deixei o carrossel mais suave para demonstrações
+
+  mudei a cor de fundo

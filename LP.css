@@ -7,7 +7,7 @@
 }
  
  body{
-    background:linear-gradient(to right,#ffbaff,#b690fe);
+    background-color:#e7dddf;
     overflow-x: hidden;
     height: 150vh;
  }
@@ -68,13 +68,14 @@ div #Carrossel{
 }
 @keyframes carrossel{
  0%{margin-left: 0;}
- 25%{margin-left: -100%;}
- 50%{margin-left: -200%;}
- 60%{margin-left: -300%;}
- 75%{margin-left: -300.01%;}
- 80%{margin-left: -300.02%;}
- 95% {margin-left: -300.03%;}
- 100%{margin-left: -300%;}
+ 10%{margin-left: 0;}
+ 20%{margin-left: -100%;}
+ 35%{margin-left: -100%;}
+ 45%{margin-left: -200%;}
+ 60%{margin-left: -200%;}
+ 70% {margin-left: -300%;}
+ 90% {margin-left: -300%;}
+ 100%{margin-left: 0%;}
 }
 
 .Cake{
@@ -140,11 +141,15 @@ li:hover>p{
     margin: 0 auto;
 }
  .texto{
+    background-color: #F3E5AB;
     border: 1px solid black;
     color: black;
     visibility: visible;
     text-transform:  capitalize;
     margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 #Chef{
     width: 250px;
@@ -155,7 +160,7 @@ li:hover>p{
     z-index: 1;
 }
 .bolha{
-    background-color: #3e1dc6;
+    background-color: #56010c;
     width: 220px;
     height: 220px;
     border: 1px solid pink;
@@ -166,7 +171,7 @@ li:hover>p{
      color: white;
 }
 .bolha2{
-    background-color: #3e1dc6;
+    background-color: #56010c;
     width: 110px;
     height: 110px;
     position: relative;
@@ -174,4 +179,11 @@ li:hover>p{
     top: -555px;
     color: white;
     border-radius:50%;
+}
+#amor{
+    visibility: visible;
+    text-align: center;
+    margin: 10 auto;
+    position: absolute;
+    margin-left: 15px;
 }
