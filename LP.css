@@ -46,7 +46,7 @@ div #Carrossel{
 #Carrossel ul{
     animation-name: carrossel;
     animation-duration: 18s;
-    animation-iteration-count: infinite;
+    /*animation-iteration-count: infinite;*/
     width: 400%;
     display: flex;
     gap: 10px;
@@ -186,4 +186,14 @@ li:hover>p{
     margin: 10 auto;
     position: absolute;
     margin-left: 15px;
+}
+.btn, .btn1, .btn2, .btn3{
+   cursor: pointer;
+   background-color: pink;
+   padding: 5px;
+   border-radius: 5px;
+   display: flex;
+   position: absolute;
+   bottom:4px;
+   margin: 0 auto;
 }
