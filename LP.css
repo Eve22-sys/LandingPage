@@ -192,8 +192,9 @@ li:hover>p{
    background-color: pink;
    padding: 5px;
    border-radius: 5px;
-   display: flex;
+   display: inline-block;
    position: absolute;
+   right: 38%;
    bottom:4px;
    margin: 0 auto;
 }

@@ -33,3 +33,8 @@
   deixei o carrossel mais suave para demonstrações
 
   mudei a cor de fundo
+
+  centralizando o botão de "compre" com 
+  display: inline-block;
+  position:absolute;
+  right:38%;
