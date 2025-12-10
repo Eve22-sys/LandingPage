@@ -12,8 +12,9 @@
     height: 150vh;
  }
 #menu{
-    color: black;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #f19ba6;
 }
 ul{
     text-align: center;
@@ -24,13 +25,12 @@ li  {
 }
 a {
     padding: 0px;
-    color: black;
+    color: white;
     font-size: larger;
     font-weight: bolder;
     text-decoration: none;
 }
 a:hover{
-    color: #3e1dc6;
     font-size: x-large;
     font-weight: bolder;
     text-decoration: underline;
@@ -46,7 +46,7 @@ div #Carrossel{
 #Carrossel ul{
     animation-name: carrossel;
     animation-duration: 18s;
-    /*animation-iteration-count: infinite;*/
+    animation-iteration-count: infinite;
     width: 400%;
     display: flex;
     gap: 10px;
@@ -135,13 +135,13 @@ li:hover>p{
    
 }
 #history{
-    border: 1px solid black;
+    background-color: #f19ba6;
     width: 900px; 
     height: 250px;
     margin: 0 auto;
 }
  .texto{
-    background-color: #F3E5AB;
+    background-color: #fcfbfb;
     border: 1px solid black;
     color: black;
     visibility: visible;
