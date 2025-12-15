@@ -12,10 +12,17 @@
     height: 150vh;
  }
 #menu{
-    padding-bottom:15px ;
+    padding-top:-50px ;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     background-color: #f19ba6;
+}
+#icon{
+    position: relative;
+    bottom: -20px;
+    width: 100px;
+    margin: 0 auto;
+    padding:0 auto;
 }
 ul{
     
