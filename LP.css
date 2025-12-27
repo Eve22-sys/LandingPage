@@ -24,13 +24,14 @@
     margin: 0 auto;
     padding:0 auto;
 }
-ul{
-    
-    text-align: center;
-}
-li  {
-    display: inline-block;
-    margin: 16px;
+
+li, ul{
+     display: flex;
+     padding: 8px;
+     gap: 10px;
+    align-items: center;
+    justify-content: center;
+   
 }
 a {
     padding: 0px;
@@ -50,82 +51,41 @@ h1{
     text-align: center;
     margin: 4%;
 }
-div #Carrossel{
-    width: 5%;
-}
-#Carrossel ul{
-    animation-name: carrossel;
-    animation-duration: 18s;
-    animation-iteration-count: infinite;
-    width: 400%;
+ul li{
     display: flex;
-    gap: 10px;
-    margin: 23px;
-    padding: 23px;
-    list-style: none;
-    
-    }
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    height: 50%;
+    position: relative;
+    left: 59px;
+}
+li img{
+    border: 1px solid pink;
+    border-radius: 15px;
+    width: 180px;
+    height: 260px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
 
- #Carrossel ul:hover{
-    animation-play-state: paused;
-    }
-.img{
-    width: 25%;
-   flex-shrink: 0;
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
-@keyframes carrossel{
- 0%{margin-left: 0;}
- 10%{margin-left: 0;}
- 20%{margin-left: -100%;}
- 35%{margin-left: -100%;}
- 45%{margin-left: -200%;}
- 60%{margin-left: -200%;}
- 70% {margin-left: -300%;}
- 90% {margin-left: -300%;}
- 100%{margin-left: 0%;}
+.card{
+     transition: transform 0.3s ease;
+    visibility: hidden;
 }
-
-.Cake{
-    border: 2px solid pink;
-    width: 250px;
-    height: 250px;
-    
+span, button{
+    position: relative;
+    left: 29px;
 }
-.Cake:hover{
-    border-radius: 5%;
-     transform: scale(1.2);
-}
-
-.Dango{
-    border: 2px solid pink;
-    width: 250px;
-    height: 250px;
-}
-.Dango:hover{
-    border-radius: 5%;
-     transform: scale(1.2);
-}
-
-.Namagashi{
-    border: 2px solid pink;
-    width: 250px;
-    height: 250px;
-}
-.Namagashi:hover{
-    border-radius: 5%;
-     transform: scale(1.2);}
-.Mochi{
-    border: 2px solid pink;
-    top: 150;
-    width: 250px;
-    height: 250px;
-}
-.Mochi:hover{
-    border-radius: 5%;
-    transform: scale(1.2);
+ li:hover .card{
+    transform: translateX(-50px);
+    background-color: rgb(211, 206, 206);
+    height: 200px;
+    position: relative;
+ 
+    visibility: visible;
 }
 p{
     border: 1px solid pink;
@@ -134,16 +94,7 @@ p{
     box-sizing: border-box;
     margin-top: 30px;
 }
-li:hover>p{
-    background-color: #fbfbf8;
-   visibility: visible;
-   width: 250px;
-   height: 100px;
-   transform: translateY(-80px);
-   display: block;
-   border-radius: 5px;
-   
-}
+
 #sobre{
     background-color: #f19ba6;
     width: 900px; 
@@ -196,15 +147,4 @@ li:hover>p{
     margin: 10 auto;
     position: absolute;
     margin-left: 15px;
-}
-.btn, .btn1, .btn2, .btn3{
-   cursor: pointer;
-   background-color: pink;
-   padding: 5px;
-   border-radius: 5px;
-   display: inline-block;
-   position: absolute;
-   right: 38%;
-   bottom:4px;
-   margin: 0 auto;
 }

@@ -38,3 +38,5 @@
   display: inline-block;
   position:absolute;
   right:38%;
+
+  tirei o carroseel e optei por um hover transform, mas simples, melhor visualização e bonito
