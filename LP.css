@@ -10,6 +10,7 @@
     background-color:#e7dddf;
     overflow-x: hidden;
     height: 150vh;
+    max-width: 100%;
  }
 #menu{
     color: white;
@@ -47,46 +48,17 @@ a:hover{
     text-decoration: underline;
     margin: 0%;
 }
+.section{
+    position: absolute;
+    top: 120px;
+}
 h1{
     text-align: center;
-    margin: 4%;
+    margin: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
-ul li{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-    height: 50%;
-    position: relative;
-    left: 59px;
-}
-li img{
-    border: 1px solid pink;
-    border-radius: 15px;
-    width: 180px;
-    height: 260px;
-    margin-top: 40px;
-    justify-content: center;
-    align-items: center;
 
-}
-.card{
-     transition: transform 0.3s ease;
-    visibility: hidden;
-}
-span, button{
-    position: relative;
-    left: 29px;
-}
- li:hover .card{
-    transform: translateX(-50px);
-    background-color: rgb(211, 206, 206);
-    height: 200px;
-    position: relative;
- 
-    visibility: visible;
-}
 p{
     border: 1px solid pink;
     visibility: hidden;
@@ -108,8 +80,10 @@ p{
     visibility: visible;
     text-transform:  capitalize;
     margin: 10px;
-    border-radius: 5px;
     padding: 3px;
+    border-radius: 5px;
+    position: relative;
+    left: 25px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 #Chef{
@@ -141,10 +115,68 @@ p{
     color: white;
     border-radius:50%;
 }
-#amor{
+#demonstration{
     visibility: visible;
     text-align: center;
     margin: 10 auto;
     position: absolute;
     margin-left: 15px;
+}
+ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    height: 50%;
+    position: relative;
+    left: 59px;
+
+}
+li img{
+    border: 1px solid rgb(223, 90, 112);
+    border-radius: 15px;
+    width: 180px;
+    height: 260px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+     transition: transform 0.3s ease;
+    visibility: hidden;
+}
+
+h2, .card{
+ font-family: 'Courier New', Courier, monospace;
+}
+h1, .card{
+ font-family: 'Times New Roman', Times, serif;
+}
+span, button{
+    position: relative;
+    left: 19px;
+    top: 4px;
+}
+span{
+    position: relative;
+    left: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    padding:5px;
+    background-color: #f19ba6;
+    font-weight: bold;
+}
+ li:hover .card{
+    transform: translateX(-50px);
+    background-color:#f0f3f5;
+    height: 230px;
+    width: 193px;
+    position: relative;
+    visibility: visible;
+}
+h4{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
 }
