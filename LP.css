@@ -140,6 +140,7 @@ ul li{
 
 }
 li img{
+    background-attachment: fixed;
     border: 2px solid rgb(223, 90, 112);
     border-radius: 15px;
     width: 180px;
@@ -147,14 +148,17 @@ li img{
     margin-top: 40px;
     justify-content: center;
     align-items: center;
+
 }
 .card{
-     transition: transform 0.3s ease;
+     transition: transform 0.5s ease;
     visibility: hidden;
 }
 
 h2, .card{
- font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 h1, .card{
  font-family: 'Times New Roman', Times, serif;
@@ -162,7 +166,7 @@ h1, .card{
 span, button{
     position: relative;
     left: 19px;
-    top: 4px;
+    bottom: 4px;
 }
 span{
     position: relative;
@@ -174,7 +178,8 @@ button{
     font-weight: bold;
 }
  li:hover .card{
-    transform: translateX(-50px);
+    transition: transform 0.3s ease;
+    transform: rotatex(360deg) translateX(-50px);
     background-color:#f0f3f5;
     height: 230px;
     width: 193px;
@@ -189,12 +194,4 @@ h4{
 #Evaluations{
 position: relative;
 top: 10%;
-}
- .coments{
-    display: flex;
-    flex-direction: row;
-    gap: 56px;
-}
-.comentarios{
-    visibility: visible;
 }
