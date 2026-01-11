@@ -40,3 +40,7 @@
   right:38%;
 
   tirei o carroseel e optei por um hover transform, mas simples, melhor visualização e bonito
+
+  Troquei o background do Section e optei por uma imagem de cafeteria mais rústica e aconchegante.
+
+  Utilizei o background-image para por a imagem de fundo, também coloquei um efeito parallax na imagem 
