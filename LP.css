@@ -155,7 +155,7 @@ li img{
 
 }
 .card{
-     transition: transform 0.5s linear;
+     transition: transform 0.5s;
      right: 6%;
     visibility: hidden;
     border-radius: 5px;
@@ -185,7 +185,7 @@ button{
     font-weight: bold;
 }
  li:hover .card{
-    transition: transform 0.7s linear;
+    transition: transform 0.8s linear;
     transform: rotatez(360deg) translateX(-50px) ;
     background-color:#f0f3f5;
     height: 230px;
@@ -199,6 +199,7 @@ h4{
     color: white;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
 }
 #Evaluations{
 position: relative;
@@ -207,26 +208,26 @@ top: 10%;
 #clientes  {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: relative;
     gap: 30px;
 }
-.cliente-1{
-    width: 200px;
-    height: 150px;
-}
-
-.cliente-2{
-    width: 200px;
+#clientes img{
+    width: 180px;
     height: 180px;
-    z-index: 1;
+    border-radius: 50%;
+    transition: translate 5s;
 }
-
-.cliente-3{
-    width: 200px;
-    height: 150px;
+#clientes:hover-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    top: 13px;
 }
-p{
-    visibility: hidden;
+.coments{
+    width: 180px;
+    height: 80px;
+    visibility: visibility;
+    background-color: #f0f3f5;
 }
