@@ -8,7 +8,7 @@
 }
  
  body{
-    background-color:#7a594d;
+   background-color: #362015;
     overflow-x: hidden;
     height: 150vh;
     max-width: 100%;
@@ -16,7 +16,7 @@
 #menu{
     color: white;
     font-family: 'Poppins', sans-serif;
-    background-color: #7a5738;
+    background-color:#362015;
 }
 #icon{
     position: absolute;
@@ -50,7 +50,8 @@ a:hover{
     margin: 0%;
 }
  
-h1{
+.titulo{
+    color: white;
     text-size-adjust: 50px;
     text-align: center;
     margin: 17px;
@@ -66,7 +67,7 @@ h1{
     height: 250px;
     margin: 0 auto;
     position: relative;
-    top: 4%;
+    top: 10%;
 }
 .history{
     color: white;
@@ -100,7 +101,6 @@ h1{
     background-color: #56010c;
     width: 220px;
     height: 220px;
-    border: 1px solid pink;
     position: relative;
      left: 69%;
      top: -526px;
@@ -119,7 +119,7 @@ h1{
 }
 #Demonstrações{
     position: relative;
-    top: 8%;
+    top: 20%;
 }
 h3{
     position: relative;
@@ -145,7 +145,6 @@ ul li{
 
 }
 li img{
-    border: 2px solid rgb(223, 90, 112);
     border-radius: 15px;
     width: 180px;
     height: 260px;
@@ -168,6 +167,7 @@ h2, .card{
 }
 h1, .card{
  font-family: 'Times New Roman', Times, serif;
+ color: black;
 }
 span, button{
     position: relative;
@@ -194,16 +194,17 @@ button{
     visibility: visible;
 }
 h4{
+    margin: 60px 60px;
     position:relative;
     left:7%;
     color: white;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 10px;
 }
 #Evaluations{
 position: relative;
-top: 10%;
+top: 30%;
+margin: 60px 60px;
 }
 #clientes  {
     display: flex;
@@ -212,22 +213,27 @@ top: 10%;
     align-items: center;
     position: relative;
     gap: 30px;
+    transition: 0.5s;
 }
 #clientes img{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    transition: translate 5s;
+    top: 0px;
+    position: absolute;
 }
-#clientes:hover-img{
+#clientes:hover{
+   height: 500px;
+}
+.coments {
     width: 180px;
     height: 180px;
-    border-radius: 50%;
-    top: 13px;
-}
-.coments{
-    width: 180px;
-    height: 80px;
-    visibility: visibility;
     background-color: #f0f3f5;
+    transition: 0.5s;
+}
+.coments img{
+overflow: hidden;
+}
+.coments:hover img{
+    overflow: visible;
 }

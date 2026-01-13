@@ -1,3 +1,5 @@
+ Primeiro projeto pessoal 
+ 
  Pretendo compreender melhor as propriedades do CSS e HTML, criando uma Landing Page simples de acordo com meu nível de iniciante.
 
   Após o evento que participei da Rocketseat percebi que não tem outro modo de fixar o que aprendi sem praticar.
@@ -44,3 +46,5 @@
   Troquei o background do Section e optei por uma imagem de cafeteria mais rústica e aconchegante.
 
   Utilizei o background-image para por a imagem de fundo, também coloquei um efeito parallax na imagem 
+
+  criando um efeito hover nos clientes, o objetivo é passar o mouse sobre os clientes e aparecer as avaliações deles.
