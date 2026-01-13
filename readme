@@ -48,3 +48,5 @@
   Utilizei o background-image para por a imagem de fundo, também coloquei um efeito parallax na imagem 
 
   criando um efeito hover nos clientes, o objetivo é passar o mouse sobre os clientes e aparecer as avaliações deles.
+
+  justify-content:space-around; no menu
