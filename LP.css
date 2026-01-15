@@ -70,7 +70,7 @@ a:hover{
 }
 .history{
     color: white;
-    left: 7%;
+    right: 26%;
 }
  .texto {
     width: 250px;
@@ -160,25 +160,35 @@ li img{
 }
 
 h2, .card{
+    text-align: center;
     position: relative;
     bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
 h1, .card{
+    margin: 5px;
  font-family: 'Times New Roman', Times, serif;
  color: black;
 }
 span, button{
+    display: inline-block;
     position: relative;
     left: 19px;
     bottom: 4px;
+    text-align: center;
 }
 span{
+    left: 6px;
+    gap: 5px;
     position: relative;
     font-family: 'Times New Roman', Times, serif;
 }
 button{
+    gap: 5px;
+    left: 5px;
     padding:5px;
+    border-radius: 5px;
+    border: #7a594d;
     background-color: #7a594d;
     color: white;
     font-weight: bold;
